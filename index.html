@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RZ06DLVS5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9RZ06DLVS5');
+    </script>
     <style>
         .app-name:after {
             content: ':';
@@ -14,7 +22,8 @@
         <li>
             <span class="app-name">Crypto-js AES encrypt & decrypt</span>
             <span class="app-link">
-                <a href="./cryptojs/aes/">https://alertkor.github.io/cryptojs/aes/</a>
+                <!--<a href="./cryptojs/aes/" onclick="gtag('event', 'click', { 'event_category': 'go_to', 'event_label': 'cryptojs-aes' });">https://alertkor.github.io/cryptojs/aes/</a>-->
+                <a onclick="gtag('event', 'click', { 'event_category': 'visit', 'event_label': 'cryptojs-aes' });" href="./cryptojs/aes/">https://alertkor.github.io/cryptojs/aes/</a>
             </span>
         </li>
     </ul>
